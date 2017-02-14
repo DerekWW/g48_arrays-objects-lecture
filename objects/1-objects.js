@@ -10,8 +10,8 @@
 
 // Declaring a new, empty object and saving it to a variable
 
-var depressed = { };
-console.log(depressed);
+var sad = { };
+console.log(sad);
 
 // Declaring a new object with a single key:value pairs.
 
@@ -34,3 +34,6 @@ var frodo = {
 };
 
 // console.log(frodo);
+
+
+// Exercise: https://repl.it/Ffrw/1

@@ -1,3 +1,9 @@
+/*
+  With objects we actually have two ways to access values. The first being bracket notation
+  and the second being dot notation. Dot notation tends to be what is most common for accessing
+  objects, however there are many scenarios where dot notation cannot be used.
+*/
+
 var frodo = {
   name: 'Frodo',
   race: 'Hobbit',
@@ -9,12 +15,6 @@ var frodo = {
   height: 40,
   friends: ['Sam', 'Pippin', 'Merry', 'Gandalf']
 };
-
-/*
-  With objects we actually have two ways to access values. The first being bracket notation
-  and the second being dot notation. Dot notation tends to be what is most common for accessing
-  objects, however there are many scenarios where dot notation cannot be used.
-*/
 
 // To access a key's value inside of an object the syntax is very simple.
 
@@ -33,4 +33,6 @@ frodo.enemies = ['Gollum', 'Sauron', 'Saruman'];
 
 delete frodo.enemies;
 
-// console.log(frodo); 
+// console.log(frodo);
+
+// Exercise: https://repl.it/FfsB/1
