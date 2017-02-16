@@ -27,12 +27,12 @@ var frodo = {
 
 frodo.enemies = ['Gollum', 'Sauron', 'Saruman'];
 
-// console.log(frodo);
+console.log(frodo);
 
 // We can also delete a key:value pair using the JavaScript keyword delete
 
 delete frodo.enemies;
 
-// console.log(frodo);
+console.log(frodo);
 
 // Exercise: https://repl.it/FfsB/1

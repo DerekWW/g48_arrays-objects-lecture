@@ -16,7 +16,7 @@ console.log(sad);
 // Declaring a new object with a single key:value pairs.
 
 var oneHobbit = { name: 'Frodo' };
-// console.log(oneHobbit);
+console.log(oneHobbit);
 
 // Declaring a new object with multiple key:value pairs.
 // Note: We can also nest within objects as well!
@@ -32,6 +32,11 @@ var frodo = {
   height: 40,
   friends: ['Sam', 'Pippin', 'Merry', 'Gandalf']
 };
+
+var newFrodo = frodo;
+console.log(newFrodo);
+
+console.log(newFrodo === frodo);
 
 // console.log(frodo);
 

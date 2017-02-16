@@ -17,7 +17,9 @@ var frodo = {
   the keys of a object.
 */
 
-// console.log(Object.keys(frodo));
-// console.log(Object.keys(frodo.hometown));
+Object.keys(frodo)
+
+console.log(Object.keys(frodo));
+console.log(Object.keys(frodo.hometown));
 
 // Exercise: https://repl.it/FfsE/1

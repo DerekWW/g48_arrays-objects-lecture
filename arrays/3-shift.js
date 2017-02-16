@@ -7,6 +7,6 @@ moreItems.unshift('Charizard');
 console.log(moreItems);
 
 moreItems.shift();
-// console.log(moreItems);
+console.log(moreItems);
 
 // Exercise: https://repl.it/FfaN/2

@@ -14,13 +14,13 @@ console.log(emptyArray);
 // the brackets.
 
 var oneItem = [99];
-// console.log(oneItem);
+console.log(oneItem);
 
 // We can create a array with multiple items by putting in
 // multiple comma seperated values.
 
 var moreItems = ['Squirtle', 4, false, oneItem, true];
 
-// console.log(moreItems);
+console.log(moreItems);
 
 // Exercise: https://repl.it/Ff9D/1

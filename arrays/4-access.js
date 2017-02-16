@@ -1,4 +1,4 @@
-var moreItems = ['Squirtle', 4, false, '🐴', true, ['Bulbasaur', 'Ivysaur', 'Venusaur']];
+var moreItems = ['Squirtle', 4, false, '🐴', true, ['Bulbasaur', 'Ivysaur', 'Venusaur', ['stuff']]];
 
 
 /*
@@ -19,16 +19,16 @@ console.log(moreItems[0]);
 // We can also put other collections inside of an array. Above we have an array inside
 // another array. This is called nesting and can become quite complex.
 
-// console.log(moreItems[5][2]);
+console.log(moreItems[5][2]);
 
-// We can also reassign whe is stored at any given index using the same
+// We can also reassign what is stored at any given index using the same
 // bracket notation.
 
-// console.log(moreItems);
+console.log(moreItems);
 
 moreItems[3] = '🦄';
-moreItems[5][3] = 'Charmander'
+moreItems[5][3][1] = 'more stuff'
 
-// console.log(moreItems);
+console.log(moreItems);
 
 // Exercise: https://repl.it/Ffad/2

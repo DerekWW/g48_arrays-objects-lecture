@@ -10,14 +10,14 @@ moreItems.push('Pikachu');
 console.log(moreItems);
 
 moreItems.pop();
-// console.log(moreItems);
+console.log(moreItems);
 
 // Fun Fact: When using pop or shift to remove an element we can store
 // the element to a variable.
 
 var lastItem = moreItems.pop();
 
-// console.log(moreItems);
-// console.log(lastItem);
+console.log(moreItems);
+console.log(lastItem);
 
 // Exercise: https://repl.it/Ff9Y/1
